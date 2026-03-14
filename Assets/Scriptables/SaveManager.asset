@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf6134ff62f553733b0f115b3473cff9, type: 3}
+  m_Name: SaveManager
+  m_EditorClassIdentifier: Assembly-CSharp::SaveManagerSO
+  config: {fileID: 11400000, guid: 523659993a70e0c419bed9d636fcf6ee, type: 2}
+  saveSlots:
+  - {fileID: 11400000, guid: d09c80cc224e9a9ac8fba889cfd17098, type: 2}
+  - {fileID: 11400000, guid: 2435893d4159d024ea618472c5e1b2e5, type: 2}
+  - {fileID: 11400000, guid: a277434dcc261fb82a5b221af0a3adad, type: 2}
