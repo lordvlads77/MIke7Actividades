@@ -172,6 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c54cd5e44bb79e7c3a3c8c918263b9ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuController
+  selectors: []
 --- !u!114 &75601031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -954,6 +955,37 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameSaveExample
   saveManager: {fileID: 11400000, guid: 1af052b6df72a59309f588b292183f3a, type: 2}
   activeSlot: 0
+--- !u!1 &893882560
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 893882561}
+  m_Layer: 0
+  m_Name: SoundManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &893882561
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893882560}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 535.37286, y: 241.53462, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,3 +1692,4 @@ SceneRoots:
   - {fileID: 1377014803}
   - {fileID: 800857149}
   - {fileID: 182028955}
+  - {fileID: 893882561}
